@@ -3,7 +3,7 @@ sleep 2;
 cd ~
 echo 'installing python-software-properties';
 sleep 2;
-apt-get install -y build-essential git python-software-properties
+apt-get install -y build-essential git software-properties-common 
 
 echo 'installing Node Js';
 sleep 2;
